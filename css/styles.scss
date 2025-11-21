@@ -19,3 +19,14 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 @import "bootstrapComponents";
 
 // 5. Du kan lave styling her...
+
+
+footer {
+  background-color: #343a40;
+  color: #fff;
+  padding: 3rem 0;
+}
+
+.social-icons a {
+  font-size: 1.25rem;
+}
