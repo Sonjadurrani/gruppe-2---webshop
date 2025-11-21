@@ -4,6 +4,8 @@
 // 2. Include any default variable overrides here
 $link-decoration: none;
 $secondary: white;
+$primary: #343a40;
+$success: #cdcdcd;
 
 // 3. Include remainder of required Bootstrap stylesheets
 @import "../node_modules/bootstrap/scss/variables";
@@ -30,3 +32,15 @@ footer {
 .social-icons a {
   font-size: 1.25rem;
 }
+
+.card-img-top {
+  height: 250px;      /* vælg den højde du ønsker */
+  object-fit: cover;  /* beskærer billedet så det altid passer pænt */
+  width: 100%;        /* sørger for at billedet fylder kortets bredde */
+}
+
+.navbar {
+  border-bottom: 2px solid #e5e5e5; /* vælg farve og tykkelse */
+}
+
+
